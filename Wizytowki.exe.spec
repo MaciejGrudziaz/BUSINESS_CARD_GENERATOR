@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['WIZYTOWKI_GENERATOR.py'],
+a = Analysis(['BUSINESS_CARD_GENERATOR.py'],
              pathex=['D:\\Projects\\WIZYTOWKI_GENERATOR\\WIZYTOWKI_GENERATOR'],
              binaries=[],
              datas=[],

@@ -1,1 +1,1 @@
-pyinstaller --onefile --windowed --name "Wizytowki.exe" --icon=ikona.ico .\WIZYTOWKI_GENERATOR.py
+pyinstaller --onefile --windowed --name "Wizytowki.exe" --icon=ikona.ico .\BUSINESS_CARD_GENERATOR.py
