@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "Wizytowki.exe" --icon=ikona.ico .\WIZYTOWKI_GENERATOR.py
