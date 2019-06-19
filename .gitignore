@@ -1,0 +1,6 @@
+#ignore build and dist directories - output directiories for pyinstaller
+build/
+dist/
+
+#ignoring __pycache__
+__pycache__/
