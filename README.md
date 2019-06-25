@@ -6,6 +6,8 @@ Program is using fixed pattern of business card and the user can only add specif
 graphical user interface. User can preview the card layout during creation and export it when it's done. There is also possibility to save
 templates, so the program can automatically load certain fields if needed.
 
+At the current moment program is only in polish language.
+
 **How to build (Windows):**
 - you will need following Python extensions: **reportlab**, **Pillow**, **PyInstaller**
 - **appdata.bat** script is creating config file in *AppData/Local* directory
