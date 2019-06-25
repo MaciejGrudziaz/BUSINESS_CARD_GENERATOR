@@ -10,6 +10,6 @@ At the current moment program supports only polish language version.
 
 **How to build (Windows):**
 - you will need following Python extensions: **reportlab**, **Pillow**, **PyInstaller**
-- **appdata.bat** script is creating config file in *AppData/Local* directory
+- **appdata.bat** script is creating special directory in *AppData/Local* for program's config file
 - **installer.ps1** script is used to create **.exe** file for Windows from project files
 - **arial.ttf**, **arial_bold.ttf**, **ikona.ico**, **logo.png** files should be placed in the same directory as the **.exe** file
