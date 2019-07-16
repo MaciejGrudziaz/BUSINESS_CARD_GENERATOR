@@ -48,6 +48,10 @@ class PdfExport:
 
 		textPos_X=9.0*pageWidth/16.0
 
+		function2MoveVal = 0.0
+		if(self.function2 == ""):
+			function2MoveVal = 0.2
+
 		textObj=doc.beginText()
 		textObj.setTextOrigin(textPos_X,6.6*pageHeight/8.0)
 		textObj.setFont("ArialBold",8)
@@ -67,37 +71,37 @@ class PdfExport:
 		doc.drawText(textObj)
 
 		textObj=doc.beginText()
-		textObj.setTextOrigin(textPos_X,4.6*pageHeight/8.0)
+		textObj.setTextOrigin(textPos_X,(4.6+function2MoveVal)*pageHeight/8.0)
 		textObj.setFont("ArialBold",8)
 		textObj.textOut(self.company)
 		doc.drawText(textObj)
 
 		textObj=doc.beginText()
-		textObj.setTextOrigin(textPos_X,4.2*pageHeight/8.0)
+		textObj.setTextOrigin(textPos_X,(4.2+function2MoveVal)*pageHeight/8.0)
 		textObj.setFont("Arial",6)
 		textObj.textOut(self.postal_city)
 		doc.drawText(textObj)
 
 		textObj=doc.beginText()
-		textObj.setTextOrigin(textPos_X,3.8*pageHeight/8.0)
+		textObj.setTextOrigin(textPos_X,(3.8+function2MoveVal)*pageHeight/8.0)
 		textObj.setFont("Arial",6)
 		textObj.textOut(self.street)
 		doc.drawText(textObj)
 
 		textObj=doc.beginText()
-		textObj.setTextOrigin(textPos_X,3.4*pageHeight/8.0)
+		textObj.setTextOrigin(textPos_X,(3.0+function2MoveVal)*pageHeight/8.0)
 		textObj.setFont("Arial",6)
 		textObj.textOut(self.stationary)
 		doc.drawText(textObj)
 
 		textObj=doc.beginText()
-		textObj.setTextOrigin(textPos_X,3.0*pageHeight/8.0)
+		textObj.setTextOrigin(textPos_X,(2.6+function2MoveVal)*pageHeight/8.0)
 		textObj.setFont("Arial",6)
 		textObj.textOut(self.mobile)
 		doc.drawText(textObj)
 
 		textObj=doc.beginText()
-		textObj.setTextOrigin(textPos_X,2.6*pageHeight/8.0)
+		textObj.setTextOrigin(textPos_X,(2.2+function2MoveVal)*pageHeight/8.0)
 		textObj.setFont("Arial",6)
 		textObj.textOut(self.mail)
 		doc.drawText(textObj)
