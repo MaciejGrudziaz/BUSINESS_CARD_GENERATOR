@@ -13,3 +13,14 @@ At the current moment, program supports only polish language version.
 - **appdata.bat** script is creating special directory in *AppData/Local* for program's config file
 - **installer.ps1** script is used to create **.exe** file for Windows from project files
 - **arial.ttf**, **arial_bold.ttf**, **ikona.ico**, **logo.png** files should be placed in the same directory as the **.exe** file
+
+## GALLERY
+
+### Program window with a business card preview at the bottom.
+![business card generator screenshot](https://github.com/MaciejGrudziaz/BUSINESS_CARD_GENERATOR/blob/master/Screenshots/businesscard_screenshot.png)
+
+
+### Business card export example.
+<br>
+<img src="https://github.com/MaciejGrudziaz/BUSINESS_CARD_GENERATOR/blob/master/Screenshots/export_front.png" width="500">
+<img src="https://github.com/MaciejGrudziaz/BUSINESS_CARD_GENERATOR/blob/master/Screenshots/export_back.png" width="500">
